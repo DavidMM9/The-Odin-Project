@@ -1,17 +1,22 @@
-// let Name = 'John';
-// let admin = Name;
+function add7(number) {
+    return number + 7;
+}
+console.log(add7(-10))
 
-// let ourPlanet = 'Earth';
-// let currentVisitor = 'John';
-
-// let greetings = `Hello, ${Name}`;
-// console.log(greetings)
-
-const button = document.querySelector('button');
-
-function greet() {
-    const name = prompt('What is your name?');
-    alert(`Hello ${name}, nice to see you!`);
+function multiply(number1, number2) {
+    return number1 * number2;
 }
 
-button.addEventListener('click', greet);
+console.log(multiply(8, 4))
+
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
+console.log(capitalize("nIcE"))
+
+function lastLetter(string) {
+    return string[string.length - 1];
+}
+
+console.log(lastLetter("nice"))
